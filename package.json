@@ -1,7 +1,7 @@
 {
   "name": "free-log-mark-down-plugin",
   "main": "./lib/free-log-mark-down-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Upload your markdown files to freeLog.com",
   "keywords": [
     "freeLog"
