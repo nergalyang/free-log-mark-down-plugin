@@ -1,0 +1,18 @@
+{
+  "name": "free-log-mark-down-plugin",
+  "main": "./lib/free-log-mark-down-plugin",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "free-log-mark-down-plugin:toggle"
+  },
+  "repository": "https://github.com/atom/free-log-mark-down-plugin",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
