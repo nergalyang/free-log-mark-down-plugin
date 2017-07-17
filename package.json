@@ -1,14 +1,15 @@
 {
-  "name": "mark-down-upload",
-  "main": "./lib/mark-down-upload",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "name": "free-log-mark-down-plugin",
+  "main": "./lib/free-log-mark-down-plugin",
+  "version": "0.0.1",
+  "description": "Upload your markdown files to freeLog.com",
   "keywords": [
+      "freeLog"
   ],
   "activationCommands": {
-    "atom-workspace": "mark-down-upload:upload"
+    "atom-workspace": "Free-log-mark-down:upload"
   },
-  "repository": "https://github.com/atom/mark-down-upload",
+  "repository": "https://github.com/nergalyang/free-log-mark-down-plugin",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

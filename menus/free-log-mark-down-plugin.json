@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Upload mark-down-upload",
-        "command": "mark-down-upload:upload"
+        "command": "free-log-mark-down:upload"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "mark-down-upload",
+          "label": "free-log-mark-down:upload",
           "submenu": [
             {
               "label": "Upload",
-              "command": "mark-down-upload:upload"
+              "command": "free-log-mark-down:upload"
             }
           ]
         }
