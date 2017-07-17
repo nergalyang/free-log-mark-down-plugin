@@ -1,18 +1,19 @@
 {
-  "name": "free-log-mark-down-plugin",
-  "main": "./lib/free-log-mark-down-plugin",
+  "name": "mark-down-upload",
+  "main": "./lib/mark-down-upload",
   "version": "0.0.0",
   "description": "A short description of your package",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "free-log-mark-down-plugin:toggle"
+    "atom-workspace": "mark-down-upload:upload"
   },
-  "repository": "https://github.com/atom/free-log-mark-down-plugin",
+  "repository": "https://github.com/atom/mark-down-upload",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+      "jquery": "^2.1.4"
   }
 }

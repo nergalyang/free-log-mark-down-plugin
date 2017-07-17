@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle free-log-mark-down-plugin",
-        "command": "free-log-mark-down-plugin:toggle"
+        "label": "Upload mark-down-upload",
+        "command": "mark-down-upload:upload"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "free-log-mark-down-plugin",
+          "label": "mark-down-upload",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "free-log-mark-down-plugin:toggle"
+              "label": "Upload",
+              "command": "mark-down-upload:upload"
             }
           ]
         }
