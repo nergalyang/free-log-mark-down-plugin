@@ -1,10 +1,10 @@
 {
   "name": "free-log-mark-down-plugin",
   "main": "./lib/free-log-mark-down-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Upload your markdown files to freeLog.com",
   "keywords": [
-      "freeLog"
+    "freeLog"
   ],
   "activationCommands": {
     "atom-workspace": "Free-log-mark-down:upload"
@@ -15,6 +15,6 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-      "jquery": "^2.1.4"
+    "jquery": "^2.1.4"
   }
 }
