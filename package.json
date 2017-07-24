@@ -6,6 +6,12 @@
   "keywords": [
     "freeLog"
   ],
+  "config" : {
+      "someInt": {
+          "type": "integer",
+          "default": 23
+      }
+  },
   "activationCommands": {
     "atom-workspace": "Free-log-mark-down:upload"
   },
@@ -15,6 +21,8 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "jquery": "^2.1.4"
+    "jquery": "^2.1.4",
+    "request": "^2.81.0",
+    "request-debug":"^0.2.0"
   }
 }
