@@ -1,16 +1,16 @@
 {
   "name": "free-log-mark-down-plugin",
   "main": "./lib/free-log-mark-down-plugin",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Upload your markdown files to freeLog.com",
   "keywords": [
     "freeLog"
   ],
-  "config" : {
-      "someInt": {
-          "type": "integer",
-          "default": 23
-      }
+  "config": {
+    "someInt": {
+      "type": "integer",
+      "default": 23
+    }
   },
   "activationCommands": {
     "atom-workspace": "Free-log-mark-down:upload"
@@ -23,6 +23,6 @@
   "dependencies": {
     "jquery": "^2.1.4",
     "request": "^2.81.0",
-    "request-debug":"^0.2.0"
+    "request-debug": "^0.2.0"
   }
 }
