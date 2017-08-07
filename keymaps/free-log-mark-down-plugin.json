@@ -1,5 +1,5 @@
 {
-  "atom-workspace atom-text-editor[data-grammar='text md']": {
+  "atom-text-editor[data-grammar='text md']": {
     "ctrl-alt-3": "Free-log-mark-down:upload"
   }
 }
