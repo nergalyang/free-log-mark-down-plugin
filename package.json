@@ -13,7 +13,7 @@
     }
   },
   "activationCommands": {
-    "atom-workspace": "Free-log-mark-down:upload"
+    "atom-workspace": ["Free-log-mark-down:upload","Free-log-mark-down:download","Free-log-mark-down:login"]
   },
   "repository": "https://github.com/nergalyang/free-log-mark-down-plugin",
   "license": "MIT",

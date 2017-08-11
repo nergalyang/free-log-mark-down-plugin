@@ -4,7 +4,7 @@
       {
         "label": "Free-log-mark-down:upload",
         "command": "Free-log-mark-down:upload"
-      }
+    }
     ]
   },
   "menu": [
@@ -12,12 +12,20 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "free-log-mark-down:upload",
+          "label": "Free-log-mark-down",
           "submenu": [
-            {
-              "label": "Upload",
-              "command": "Free-log-mark-down:upload"
-            }
+              {
+                "label": "Login",
+                "command": "Free-log-mark-down:login"
+            },
+                {
+                    "label": "Upload",
+                    "command": "Free-log-mark-down:upload"
+                },
+                {
+                    "label": "DownLoad",
+                    "command": "Free-log-mark-down:download"
+                }
           ]
         }
       ]

@@ -1,17 +1,20 @@
 <div>
     <div class="row">
         <div class="col-md-11"></div>
-        <div class="col-md-1"><a id="free-log-close-btn">Close</a></div>
+        <div class="col-md-1"><a class="free-log-close-btn">Close</a></div>
     </div>
-    <div class="row">
-        <div class="col-md-offset-5 col-md-4"><h3>您未登录,请登陆.</h3></div>
-    </div>
-    <div class="row">
-        <div class="col-md-offset-4 col-md-5 relative"><label>Your username : <input class="free-log-username left100" id="free-log-username"></label></div>
-        <div class="col-md-offset-4 col-md-5 relative"><label>Your password  : <input class="free-log-password left100" id="free-log-password"></label></div>
-    </div>
-    <br/>
-    <div class="row">
-        <div class="col-md-offset-5 col-md-2"><button class="btn btn-default" id="loginClk">Login and Upload</button></div>
+    <div class="flcontent">
+        <div class="row">
+            <div class="col-md-offset-5 col-md-4"><h3>请输入账号密码： </h3></div>
+        </div>
+        <div class="row">
+            <div class="col-md-offset-4 col-md-5 relative"><label>Your username : <input class="native-key-bindings free-log-username left130" id="free-log-login-username"></label></div>
+            <div class="col-md-offset-4 col-md-5 relative mtop5"><label>Your password  : <input class="native-key-bindings free-log-password left130" id="free-log-login-password"></label></div>
+        </div>
+        <br/>
+        <div id="loginMsg"></div>
+        <div class="row">
+            <div class="col-md-offset-6 col-md-2"><button class="btn btn-default" id="loginClk">Login</button></div>
+        </div>
     </div>
 </div>
